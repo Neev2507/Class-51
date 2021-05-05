@@ -1,0 +1,32 @@
+*{
+     border:solid ;
+    }
+.header{
+     background-color: aqua;
+     display:flex;
+     justify-content: space-between;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.item{
+    background-color: cadetblue;
+    text-decoration:underline;
+    display:flex;
+    justify-content: space-around;
+}
+.footer{
+    display:flex;
+    justify-content: right;
+}
+body{
+    background-color:#00FFFF;
+}
+body{
+    margin: 100px;
+    font-family: comic sans ms;
+    font-weight: 400;
+    text-transform: capitalize;
+}
